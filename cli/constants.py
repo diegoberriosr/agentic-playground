@@ -13,6 +13,6 @@ ROUTE_MAP = {
     flags.SEQUENTIAL_FLAG: '/sequential',
     flags.LOOP_FLAG: '/loop',
     flags.PARALLEL_FLAG:'/parallel',
-    flags.CONDITIONAL_FLAG: 'conditional',
+    flags.CONDITIONAL_FLAG: '/conditional',
 }
 
