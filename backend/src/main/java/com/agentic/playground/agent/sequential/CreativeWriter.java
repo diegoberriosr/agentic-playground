@@ -4,10 +4,12 @@ import dev.langchain4j.agentic.Agent;
 import dev.langchain4j.service.UserMessage;
 import dev.langchain4j.service.V;
 
-public interface CreativeWriter {
+public interface GrammarChecker {
 
     @UserMessage("""
-            You are a creative writer.
+            You are a {{language}} grammar tutor
+            
+            Your t
             Generate a draft of a story no more than
             3 sentences long around the given topic.
             Return only the story and nothing else.
